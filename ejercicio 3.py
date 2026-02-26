@@ -23,7 +23,7 @@ def buscar_repartidores(destino):
     if disponibles:
         print(f"✓ Repartidores disponibles: {', '.join(disponibles)}")
     else:
-        print(f"❌ No hay repartidores para '{destino}'")
+        print(f" No hay repartidores para '{destino}'")
         print("Destinos válidos: Centro, Marbella, Torices, Bicentenario")
 
 # MENÚ INTERACTIVO
