@@ -19,7 +19,7 @@ def calcular_tarifa(destino="Centro", cantidad_items=1, peso_kg=1.0):
     
     # Validar destino
     if destino not in COSTOS_DESTINOS:
-        print(f"❌ Destino '{destino}' no válido")
+        print(f" Destino '{destino}' no válido")
         print(f"Destinos válidos: {', '.join(COSTOS_DESTINOS.keys())}")
         return 0
     
