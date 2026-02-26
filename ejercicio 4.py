@@ -30,7 +30,7 @@ def calcular_tarifa(destino="Centro", cantidad_items=1, peso_kg=1.0):
     
     tarifa_total = costo_base + costo_items + costo_peso
     
-    # Mostrar desglose
+    # Mostrar 
     print(f"\n{'='*50}")
     print(f"CÁLCULO DE TARIFA - {destino}")
     print(f"{'='*50}")
